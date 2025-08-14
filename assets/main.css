@@ -157,13 +157,17 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 	justify-content: space-between;
 	max-width: 900px;
 	margin: auto;
-	padding: 20px;
-	font-family: Arial, sans-serif;
+	padding: 20px; 
 }
 
 .mytext {
 	flex: 1;
 	padding-right: 20px;
+}
+
+.mytext p {
+  width: auto; /* allow flex to control width */
+  margin: 0;   /* remove auto centering */
 }
 
 .myimage {
