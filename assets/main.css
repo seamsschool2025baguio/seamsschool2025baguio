@@ -161,12 +161,12 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 }
 
 .mytextleft {
-	flex: 2;
+	flex: 4;
 	padding-right: 20px;
 }
 
 .mytextright {
-	flex: 2;
+	flex: 4;
 	padding-left: 20px;
 }
 
