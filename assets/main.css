@@ -160,32 +160,40 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 	padding: 20px; 
 }
 
-.mytext {
-	flex: 1;
+.mytextleft {
+	flex: 2;
 	padding-right: 20px;
 }
 
-.mytext p {
+.mytextright {
+	flex: 2;
+	padding-left: 20px;
+}
+
+.mytextleft p {
   width: auto; /* allow flex to control width */
   margin: 0;   /* remove auto centering */
   text-align: justify; /* this is the key */
 }
 
-.myimage {
+.mytextright p {
+  width: auto; /* allow flex to control width */
+  margin: 0;   /* remove auto centering */
+  text-align: justify; /* this is the key */
+}
+
+.myimageright {
 	flex: 1;
-	text-align: right;
-    width: 200px; /* fixed width */
-    height: auto; /* height adjusts to keep aspect ratio */
+	text-align: right;  
     border-radius: 10px; /* optional */
 }
 
 .myimageleft {
-	flex: 1;
-	text-align: left;
-    width: 200px; /* fixed width */
-    height: auto; /* height adjusts to keep aspect ratio */
-    border-radius: 10px; /* optional */
+    flex: 1;
+    text-align: left; /* aligns image to left */
+    margin-right: 20px; /* space between image and text */
 }
+
 
 .myimage img {
 	max-width: 100%;
