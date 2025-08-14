@@ -89,7 +89,7 @@ th,td{
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
+table.navigation{width:900px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
@@ -144,3 +144,36 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
   text-align:center; 
   color: #000;
 }
+
+
+
+
+
+
+
+.mycontainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.mytext {
+	flex: 1;
+	padding-right: 20px;
+}
+
+.myimage {
+	flex: 1;
+	text-align: right;
+}
+
+.myimage img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
