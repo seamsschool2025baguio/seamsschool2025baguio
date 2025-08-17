@@ -136,7 +136,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 /* PHOTOS */
 .photos ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-columns: repeat(4, 1fr); /* 4 columns, 1 row */
   grid-gap: 20px;
   list-style: none;
   padding: 0;
