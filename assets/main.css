@@ -223,3 +223,42 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
 
 
+
+/* Target only the table with class "special-table" */
+/* Style for only this table */
+.special-table {
+  border: 2px solid #333;       /* Outer table border */
+  border-collapse: collapse;    /* Merge cell borders */
+  width: 90%;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+/* Style table headers */
+.special-table th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #333;      /* Header cell borders */
+}
+
+/* Style table data cells */
+.special-table td {
+  padding: 8px 10px;
+  border: 1px solid #333;       /* Data cell borders */
+  vertical-align: top;
+}
+
+/* Optional: alternate row coloring */
+.special-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Optional: hover effect for rows */
+.special-table tr:hover {
+  background-color: #ddd;
+}
+
+
